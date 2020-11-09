@@ -1,0 +1,30 @@
+// Place all the styles related to the questions controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+$lightpink: #F3EAF4;
+$pink: #E5CEDC;
+
+
+.question {
+  background: $lightpink;
+  padding: 10px;
+  margin: 10px;
+}
+
+.answer {
+  padding: auto;
+  background: $pink;
+  padding: 10px;
+  margin: 10px;
+}
+
+#link {
+  margin: 10px;
+  text-decoration: none;
+  color: grey;
+   &:hover {
+     color: black;
+   }
+}
+
+
